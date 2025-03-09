@@ -1,0 +1,18 @@
+2024-03-21 02:58:08.294655+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "Entry" not found (this database is empty); SQL statement:
+select e1_0.id,e1_0.english,e1_0.german,e1_0.polish from Entry e1_0 [42104-224]
+2024-03-21 03:00:27.848731+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "Entry" already exists; SQL statement:
+create table Entry (id bigint not null, english varchar(255), german varchar(255), polish varchar(255), primary key (id)) [42101-224]
+2024-03-21 03:01:13.307113+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "Entry" already exists; SQL statement:
+create table Entry (id bigint not null, english varchar(255), german varchar(255), polish varchar(255), primary key (id)) [42101-224]
+2024-03-21 03:29:26.919348+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "Entry" already exists; SQL statement:
+create table Entry (id bigint not null, english varchar(255), german varchar(255), polish varchar(255), primary key (id)) [42101-224]
+2024-03-21 14:41:21.552542+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "Entry" already exists; SQL statement:
+create table Entry (id bigint not null, english varchar(255), german varchar(255), polish varchar(255), primary key (id)) [42101-224]
+2024-03-21 18:05:28.281831+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "Entry" already exists; SQL statement:
+create table Entry (id bigint not null, english varchar(255), german varchar(255), polish varchar(255), primary key (id)) [42101-224]
